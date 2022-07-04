@@ -15,5 +15,6 @@ namespace YourDailyPic.Models
         public int photographer_id { get; set; }
         public string avg_color { get; set; }
         public PexelsImageSource src { get; set; }
+        public string alt { get; set; }
     }
 }
